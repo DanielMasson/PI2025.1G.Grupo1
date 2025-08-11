@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    border-left: 250px solid black;
+    border-right: 250px solid black;
+}
+.conteudo1{
+    background-color: #5f9ea0;
+    color: white;
+    padding: 20px; 
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 23%;
+}
+.bloco1{
+    display: flex;
+    background-color: #4682b4;
+    color: white;
+    padding: 20px; 
+    width: 50%;
+    margin-left: 23%;
+    justify-content: space-evenly;
+}
+.texto1{
+    background-color: #c58c40;
+    width: 60%;
+    margin-left: 23%;
+}
+.bloco2{
+    display: flex;
+    background-color: #6a5acd;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin-left: 23%;
+    justify-content: space-evenly;
+}
+.texto2{
+    background-color: #8b4513;
+    width: 60%;
+}
+.bloco3{
+    display: flex;
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px; 
+    width: 50%;
+    margin-left: 23%;
+    justify-content: space-evenly;
+}
+.texto3{
+    background-color: #8b0000;
+    width: 60%;
+}
+.subseção1{
+    background-color: #0000ff;
+    width: 50%;
+}
+.subseção2{
+    background-color: #ff0000;
+    width: 50%;
+    margin-left: 50%;
+}
+.subseção3{
+    background-color: #008000;
+    width: 50%;
+}
+.subseção4{
+    background-color: #ffa500;
+    width: 50%;
+    margin-left: 50%;
+}
+.pessoa1{
+    background-color: #8b0000;
+    width: 20%;
+}
+.pessoa2{
+    background-color: #00008b;
+    width: 20%;
+}
+.pessoa3{
+    background-color: #006400;
+    width: 20%;
+}
+.pessoa4{
+    background-color: #8b4513;
+    width: 20%;
+}
+    .pessoa5{
+    background-color: #2f4f4f;
+    width: 20%;
+}
+.final{
+    background-color: #d2691e;
+    color: white;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 23%;
+}
+footer{
+    background-color: #dfd050;
+    color: black;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+.integrantes{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
