@@ -1,0 +1,231 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #723FA6, #BD70B4, #F19C61, #BD70B4, #723FA6);
+    align-items: center;
+    font-family: "Bebas Neue";
+}
+h1{
+    font-family: bebas;
+    color: #ffffff;
+    text-align: center;
+}
+.titulo1{
+    font-family: bebas;
+    color: #ffffff; 
+}
+.titulo2{
+    font-family: bebas;
+    text-align: center;
+    color: #ffffff;
+}
+.seção2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.seção1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quadradosecao1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #C8CFE0;
+    width: 500px;
+    border-radius: 10px;
+    height: 300px;
+    padding-top: 40px;
+    gap: 130px;
+
+}
+.bloco1{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 60px; 
+}
+.texto1{
+    background-color: #C8CFE0;
+    width: 20%;
+    border-radius: 5%;
+    color: #000000;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+}
+.bloco2{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.texto2{
+    background-color: #C8CFE0;
+    width: 20%;
+    padding: 0%;
+    border-radius: 20px;
+    color: #000000;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: left;
+}
+.bloco3{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.texto3{
+    background-color: #C8CFE0;
+    width: 20%;
+    border-radius: 15px;
+    color: #000000;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.imagem1{
+    width: 31%;
+    height: 100%;
+    border-radius: 5%;
+}
+.imagem2{
+    width: 27%;
+    height: 100%;
+    border-radius: 5%;
+}
+.imagem3{
+    width: 27%;
+    height: 27%;
+    border-radius: 5%;
+}
+.conteudoparte1{
+    font-family: bebas;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+.conteudoparte2{
+    font-family: bebas;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+.subseção1{
+    background-color: #C8CFE0;
+    width: 70%;
+    border-radius: 5%;
+    padding: 5%;
+}
+.subseção2{
+    background-color: #C8CFE0;
+    width: 70%;
+    border-radius: 5%;
+    padding: 5%;
+}
+.subseção3{
+    background-color: #C8CFE0;
+    width: 70%;
+    border-radius: 5%;
+    padding: 5%;
+}
+.subseção4{
+    background-color: #C8CFE0;
+    width: 70%;
+    border-radius: 5%;
+    padding: 5%;
+}
+.titulosia{
+    color: #000000;
+}
+.integrantes{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.lideres{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.outros{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.pessoa1{
+    background-color: #C8CFE0;
+    width: 20%;
+    border-radius: 5%;
+}
+.pessoa2{
+    background-color: #C8CFE0;
+    width: 20%;
+    border-radius: 5%;
+}
+.pessoa3{
+    background-color: #C8CFE0;
+    width: 20%;
+    border-radius: 5%;
+}
+.pessoa4{
+    background-color: #C8CFE0;
+    width: 20%;
+    border-radius: 5%;
+}
+.pessoa5{
+    background-color: #C8CFE0;
+    width: 20%;
+    border-radius: 5%;
+}
+.final{
+    background-color: #C8CFE0;
+    color: white;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 23%;
+    border-radius: 15px;
+}
+footer{
+    font-family: bebas;
+    background-color: #C8CFE0;
+    color: black;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    width: 98%;
+    
+}
+ul{
+    list-style-type: none;
+}
+.integrantes{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+.caixafooter{
+    background-color: #C8CFE0;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: end;
+    
+}
