@@ -1,4 +1,4 @@
-/* --- Estilos Gerais (Modo Escuro) --- */
+
 body {
     font-family: sans-serif;
     display: flex;
@@ -9,6 +9,29 @@ body {
     margin: 0;
     padding: 20px;
     min-height: 100vh;
+}
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.back-home:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
 }
 
 h1 {
@@ -282,4 +305,5 @@ button:hover {
     .column, .tutorial-item {
         width: 100%;
     }
+
 }
