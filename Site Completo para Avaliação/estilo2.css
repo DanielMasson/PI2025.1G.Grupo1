@@ -13,33 +13,37 @@ br{
     margin-bottom: 15px;
     content: "";
 }
-.barra_fixa{
+.barra_fixa {
     display: flex;
+    align-items: center; 
     position: fixed;
     top: 0;
-    justify-content: space-between;
+    left: 200px;
+    font-size: 1.5rem;
     background-color: #C8CFE0;
-    width: calc(100% - 400px);
-    height: 60;
+    width: calc(100% - 440px);
+    height: 60px;
     z-index: 1000;
+    padding: 0 20px;
 }
-.barra_logo{
-    height: 100px;
-    width: 100px;
+.barra_logo img {
+    height: 50px; 
+    width: auto;
 }
-.barra_logo img{
-    height: 100px;
-    width: 115px;
-} 
-.barra_home{
+.barra_home {
     display: flex;
-    width: 250px;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex: 1; 
+    justify-content: space-evenly; 
+    margin-left: 20px;
 }
-.barra_home img{
-    height: 100px;
-    width: 100px;
+.barra_home a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.barra_home a:hover {
+    color: red;
 }
 .secao1{
     margin-top: 60px;
@@ -367,3 +371,4 @@ footer a:hover{
     height: 300px;
     width: 300px;
 }
+
