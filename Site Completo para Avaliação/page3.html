@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="estilo3.css">
 </head>
 <body>
+    <header class="top-bar">
+        <a href="index.html" class="back-home">⬅ Voltar ao Site Principal</a>
+    </header>
+    
     <h1>Monte Sua Música</h1>
 
     <div class="info-section">
         <h2>Bem-vindo ao Coração Compositor!</h2>
         <p>Crie sua própria música de forma simples e intuitiva. Arraste e solte sons na linha do tempo, organize-os e use os controles para dar um toque especial à sua composição.</p>
-
         <hr>
-
         <div class="tutorial-grid">
             <div class="tutorial-item">
                 <h3>Sons Disponíveis</h3>
@@ -29,9 +31,7 @@
                 <p>Após adicionar um som à linha do tempo, clique nele para ter acesso aos controles de **Volume**, **Panning** e **Efeitos**. Você também pode ajustar o ponto de início, corte do áudio e muito mais.</p>
             </div>
         </div>
-
         <hr>
-
         <h2>Dicas para Criar Sua Música</h2>
         <p>
             Começar uma música pode ser um desafio. Siga estas dicas simples para ter uma experiência melhor:
@@ -43,14 +43,12 @@
             <li><strong>Use os efeitos:</strong> Não tenha medo de experimentar! Use os controles de efeitos para dar um toque único a cada som e criar a atmosfera que você deseja.</li>
         </ul>
     </div>
-
     <div class="main-container">
         <div class="column" id="left-panel">
             <h2>Sons Disponíveis</h2>
             <div id="sound-sections">
                 </div>
         </div>
-
         <div class="column" id="center-panel">
             <h2>Linha do Tempo</h2>
             <div id="timeline">
@@ -61,7 +59,6 @@
             </div>
             <p id="total-end-time">Tempo Total: 0s</p>
         </div>
-
         <div class="column" id="right-panel">
             <h2>Controles do Som</h2>
             <div id="sound-controls-panel">
@@ -69,7 +66,6 @@
             </div>
         </div>
     </div>
-
     <script src="editoraudio.js"></script>
 </body>
 </html>
