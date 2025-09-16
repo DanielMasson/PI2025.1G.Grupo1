@@ -11,27 +11,37 @@ body {
     min-height: 100vh;
 }
 
-.top-bar {
-    width: 100%;
+.barra_fixa {
     display: flex;
-    justify-content: flex-start;
-    margin-bottom: 20px;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 200px;
+    font-size: 1.5rem;
+    background-color: #C8CFE0;
+    width: calc(100% - 440px);
+    height: 60px;
+    z-index: 1000;
+    padding: 0 20px;
 }
-
-.back-home {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
+.barra_logo img {
+    height: 50px; 
+    width: auto;
+}
+.barra_home {
+    display: flex;
+    flex: 1; 
+    justify-content: space-evenly; 
+    margin-left: 20px;
+}
+.barra_home a {
     text-decoration: none;
-    border-radius: 6px;
+    color: black;
     font-weight: bold;
-    transition: background-color 0.3s, transform 0.1s;
+    transition: 0.3s;
 }
-
-.back-home:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
+.barra_home a:hover {
+    color: red;
 }
 
 h1 {
@@ -307,3 +317,4 @@ button:hover {
     }
 
 }
+
