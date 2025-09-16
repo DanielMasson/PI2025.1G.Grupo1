@@ -1,5 +1,8 @@
 
 body {
+    border-left: 200px solid #000020;
+    border-right: 200px solid #000020;
+    background: linear-gradient(to bottom, #723FA6, #3988ff);
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -317,4 +320,5 @@ button:hover {
     }
 
 }
+
 
