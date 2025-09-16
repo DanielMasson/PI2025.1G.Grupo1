@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    border-left: 200px solid #000020;
+    border-right: 200px solid #000020;
+    height: 200%;
+    margin: 0;
+    background-color: #000020;
+    font-family: Bebas neue;
+}
+html{
+    height: 100%;
+}
+.barra_fixa {
+    display: flex;
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 200px;
+    font-size: 1.5rem;
+    background-color: #C8CFE0;
+    width: calc(100% - 440px);
+    height: 60px;
+    z-index: 1000;
+    padding: 0 20px;
+}
+.barra_logo img {
+    height: 50px; 
+    width: auto;
+}
+.barra_home {
+    display: flex;
+    flex: 1; 
+    justify-content: space-evenly; 
+    margin-left: 20px;
+}
+.barra_home a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.barra_home a:hover {
+    color: red;
+}
+.inicio{
+    padding-top: 100px;
+    background-image: url(imagens/fundoInicial.png);
+    height: 500px;
+    width: 100%;
+}
+.inicio_logo{
+    display: flex;
+    padding-top: 130px;
+    padding-left: 30%;
+    position: absolute;
+    width: 1200px;
+    height: 400px; 
+    background: #000020; 
+    border-radius: 50%; 
+    top: 350px;
+    left: 100px;
+}
+.inicio_logo img{
+    position: absolute;
+    top: 50px;
+    left: 635px;
+    height: 400px;
+    width: 460px;
+
+}
+.txtini1{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Bebas Neue;
+    color: white;
+    top: 340px;
+    left: 500px;
+    font-size: 50px;
+    height: 10px;
+    width: 10px;
+}
+.txtini2{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Bebas Neue;
+    color: white;
+    top: 340px;
+    left: 1290px;
+    font-size: 50px;
+    height: 10px;
+    width: 10px;
+}
+.secao1{
+    display: flex;
+    flex-direction: column;
+    background-color: #000020;
+    margin-top: 775px;
+    color: white;
+}
+.titsec1{
+    font-family: bebas neue;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.sec1_1{
+    font-family: Bebas Neue;
+    font-size: xx-large;
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.sec1_1tit{
+    padding-left: 10%;
+    width: 1100px;
+}
+.sec1_1quadro{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 250px;
+    background-color: white;
+    border-radius: 16px;
+    color:black;
+}
+.sec1_2{
+    font-family: Bebas Neue;
+    font-size: xx-large;
+    display: flex;
+    width: 100%;
+}
+.sec1_2tit{
+    padding-left: 10%;
+    width: 1100px;
+}
+.sec1_2tit h1{
+    margin-top: 0;
+}
+.sec1_2quadro{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 250px;
+    background-color: white;
+    border-radius: 16px;
+    color:black;
+}
+.secao2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: linear-gradient(to bottom, #000020, #723FA6);
+}
+.carossel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.seta_esquerda{
+    transform: translateY(-50%);
+    background: #000020;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+.seta_direita{
+    transform: translateY(-50%);
+    background: #000020;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+.sec2tit{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.sec2_quadro{
+    margin-top: 50px;
+    background-image: url(imagens/percurssaoback.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    height: 600px;
+    width: 500px;
+    color: white;
+    margin-bottom: 2%;
+}
+.sec2_quadtxt{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.secao3{
+    display: flex;
+    margin-top: 171.8%;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #723FA6, #a651ec);
+}
+.sec3tit{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+}
+.sec3tit h1{
+    padding-right: 150px;
+}
+.sec3_1tit{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+
+    margin-top: 100px;
+}
+.sec3_1txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+}
+.sec3_1txt p{
+    font-size: 25px;
+    height: 500px;
+    width: 500px;
+    border-radius: 16px;
+    padding: 20px;
+    margin-left: 150px;
+    background-color: white;
+}
+.sec3_1txt img{
+    height: 450px;
+    width: 700px;
+    margin-top: 74px;
+    margin-right: 2%;
+}
+.sec3_2tit{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+
+    margin-top: 100px;
+}
+.sec3_2txt{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: black;
+}
+.sec3_2txt p{
+    font-size: 25px;
+    height: 500px;
+    width: 700px;
+    border-radius: 16px;
+    padding: 20px;
+    margin-left: 150px;
+    background-color: white;
+    margin-right: 3%;
+}
+.sec3_2txt p:nth-child(2n){
+    margin-bottom: 100px; /* espaço após cada 2º parágrafo */
+}
+.sec3_2txt img{
+    height: 600px;
+    width: 600px;
+    margin-top: 0px;
+    margin-left: 2%;
+}
+br{
+    display: block;
+    margin-bottom: 15px;
+    content: "";
+}
+.sec3_3tit{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+
+    margin-top: 100px;
+}
+.sec3_3txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+}
+.sec3_3txt p{
+    font-size: 25px;
+    height: 500px;
+    width: 600px;
+    border-radius: 16px;
+    padding: 20px;
+    margin-left: 150px;
+    background-color: white;
+}
+.sec3_3txt img{
+    height: 450px;
+    width: 600px;
+    margin-top: 74px;
+    margin-right: 2%;
+}
+.tamanho{
+    height: 10000px;
+}
+.tamanho p{
+    padding-top: 10000px;
+}
+.pagina2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #111;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+.pagina2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+.ferramenta{
+    background-color: #723FA6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.ferrtit{
+    font-size: 3em;
+}
+.ferrtxt{
+    font-size: 1.8em;
+    display: flex;
+    padding: 0px 30px 0px 30px;
+}
+.ferrbuttom{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 16px;
+}
+.ferrbuttom a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 5em;
+}
+.ferrbuttom :hover{
+    color: red;
+}
+footer{
+    position: relative;
+    left: -200px;
+    width: calc(100% + 400px);
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    background-color: #d9d9d9;
+    font-size: xx-large;
+    border-radius: 16px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+footer a:hover{
+    color: red;
+}
+.fotcontat{
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.secoes{
+    display: flex;
+    flex-direction: column;
+}
+.secoes h3{
+    margin-top: 54.65px;
+}
+.secoes p{
+    margin: 10px;
+}
+.logoifc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoifc img{
+    height: 300px;
+    width: 300px;
+}
+
+
